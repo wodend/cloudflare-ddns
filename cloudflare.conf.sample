@@ -1,0 +1,6 @@
+auth_email="mycloudflareemail@cloudflare.com"
+auth_key="deadbeef89abcdef0123456789abcdef12345"
+zone_identifier="facecafe89abcdef0123456789abcdef12345"
+record_name="example.com"
+base_url="https://api.cloudflare.com/client/v4/"
+proxy=true
