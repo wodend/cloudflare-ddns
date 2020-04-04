@@ -1,13 +1,14 @@
-# cloudflare_ddns.sh
-Update Cloudflare A record to point to the current WAN IP address with Bash.
+# Cloudflare DDNS
+Update Cloudflare A record to point to the current WAN IP address with a shell
+script.
 
 # Installation
-1. In `cloudflare_ddns.sh` directory:  
+1. In the `cloudflare-ddns` directory:  
    `$ cp cloudflare.conf.sample cloudflare.conf`
 2. Add your Cloudflare account information to `cloudflare.conf`.
 
 # Execution
-`bash cloudflare_ddns.sh`
+`./cloudflare_ddns.sh`
 
 # FAQ
 - Error **Permissions 777 for 'cloudflare.conf' are too open.**  
